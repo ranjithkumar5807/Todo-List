@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Todo List</title>
+        <link rel="stylesheet" href="index.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="container">
+            <h2>Todo List</h2>
+            <div class="search">
+                <input type="text" name="text" id="text" placeholder="Enter Here to add Task" autofocus>
+                <button onclick="adder()">ADD</button>
+            </div>
+            
+            <div id="items"></div>
+
+        </div>
+    </body>
+    <script>
+        function adder(){
+            let input=document.getElementById('text');
+            let itemData ={
+                text:input.value,
+                checked:false
+            }
+            if (input.value===''){
+                alert("Please Enter the task")
+            }else{
+                input.value='';
+                addItem(itemData);
+                saveLocal();
+            }
+
+        }
+        function addItem(itemData){
+            let items=document.getElementById('items');
+            let div=document.createElement('div');
+            let para=document.createElement('p');
+            let chk=document.createElement('input')
+            chk.type='checkbox'
+            chk.checked=itemData.checked;
+            para.innerHTML=itemData.text;
+            if(chk.checked){
+                para.classList.add('cross');
+            }
+            div.append(chk);
+            div.append(para);
+            let c=document.createElement('span');
+            c.innerHTML='\u00d7';
+            div.append(c)
+            div.classList.add('flexing');
+            items.append(div);
+
+        }
+        function saveLocal(){
+            let items=document.getElementById('items');
+            let itemList=[]
+            items.childNodes.forEach(div => {
+                let chk = div.querySelector('input[type="checkbox"]');
+                let text = div.querySelector('p').innerHTML;
+                itemList.push({
+                    text:text,
+                    checked:chk.checked
+                })
+            });
+            localStorage.setItem('todo-list-data',JSON.stringify(itemList));
+
+        }
+        items=document.getElementById('items')
+        items.addEventListener('click',(e)=>{
+            try{
+                if (e.target.tagName==='P'){
+                    let para=e.target;
+                    let chk=e.target.previousElementSibling;
+                    if (chk.checked){
+                        para.classList.remove('cross');
+                        chk.checked=false;
+                    }else{
+                        para.classList.add('cross');
+                        chk.checked=true;
+                    }
+
+                }
+                else if(e.target.tagName==='SPAN'){
+                    let t=e.target;
+                    t.parentNode.remove();
+                }else{
+                    let chk=e.target;
+                    let para=e.target.nextElementSibling;
+                    if(chk.checked){
+                        para.classList.add('cross');
+                    }else{
+                        para.classList.remove('cross');
+                    }
+                
+                    
+                }
+                saveLocal();
+            }catch(e){
+                console.error('Error:', error);
+            }
+        })
+        window.onload=()=>{
+            items=document.getElementById('items');
+            itemList=localStorage.getItem('todo-list-data');
+            if(itemList){
+
+                itemList=JSON.parse(itemList);
+                itemList.forEach(e=>{
+                    addItem(e);
+                })
+                
+            }
+
+        }
+        
+    </script>
+</html>

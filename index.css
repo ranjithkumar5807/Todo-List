@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2C3E50;
+
+
+
+}
+h2{
+    padding-bottom: 20px;
+}
+.container{
+    border: 1px solid black;
+    border-radius: 8px;
+    width:30%;
+    padding:1.8%;
+    background-color: #ECF0F1;
+
+}
+.container h2{
+    text-align: center;
+}
+
+.search{
+    display: flex;
+    justify-content: space-around;
+
+}
+.search input[type='text'] {
+    flex:3;
+    width: 100%;
+    border: 1px solid #BDC3C7; /* Light Gray */
+    border-radius: 4px;
+    font-size: 14px;
+    outline: none;
+}
+.search button{
+    flex: 1;
+    background-color: #2C3E50;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 4px;
+    cursor: pointer;
+    border-radius: 4px;
+    
+}
+
+input[type='checkbox' ]{
+    width: 25px;
+    height:20px;
+}
+
+.items{
+    font-size: 18px;
+    text-align: center;
+}
+
+.flexing{
+    display: flex;
+    align-items: center;
+    padding: 6px ;
+}
+.flexing p {
+    width:70%;
+    font-size: 18px;
+    padding-left: 30px;
+}
+
+.flexing span{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;    
+    line-height: 40px;
+}
+
+.flexing span:hover{
+    background-color: #BDC3C7;
+    border-radius: 50%;
+}
+
+.cross{
+    text-decoration: line-through;
+}
