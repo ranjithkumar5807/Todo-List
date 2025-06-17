@@ -1,0 +1,274 @@
+Core java Topics:
+===============
+OOPS
+Collections
+Exception Handling
+Iostreams
+Jdbc
+inner classes
+anonymous  classes
+jdk  1.8  
+design pattern
+==================
+singleton
+Factory
+abstract Factory
+builder
+prototype
+
+
+Junit And Mockito:
+===================
+@Test 
+@Mock
+@MockMVC
+@Before
+@After 
+@BeforeEach
+@AfterEach 
+when()
+verify()
+spy()
+times()
+count()
+ex...……………
+Agile :
+agile Life  Cycle
+print Backlog
+stake Holders
+project Backlog
+ex...………………
+Spring :
+======
+setter injection
+constructor injection
+Bean xml configuration
+scope:singleton
+prototype
+session
+application
+autowrire :
+byType,byname,constructor,autodect,none
+
+Spring collections
+<ref>  Secondary  datatypes
+innerBeans 
+lazy  Conatiner :BeanFactory
+Eager Container: Applications
+Stero Type Annotations :
+@Autowire
+@value
+@Qualifier
+@Component
+@ComponentScan
+@Configuration
+@Required
+@Bean
+
+SpringJdbc:
+===============
+JdbcTemplate
+ResultSet Extractor 
+PreparedStatementCreator
+Exception Handling
+
+spring  jap & Hibernate :
+===================
+@Entity
+
+@Table
+
+@Id
+
+@GeneratedValue
+
+@Column
+
+@Transient
+
+@OneToOne
+
+@OneToMany
+
+@ManyToOne
+
+@ManyToMany
+
+@JoinColumn
+
+@Embedded
+
+@NamedQuery
+
+@NamedNativeQuery
+
+@Cacheable
+
+@ElementCollection
+
+@Embeddable
+
+@EmbeddedId
+
+@EntityListeners
+@JoinColumns
+
+@JoinTable
+
+@MapsId
+
+@NamedStoredProcedureQuery
+
+@NamedStoredProcedureQueries
+
+@OrderBy
+
+@OrderColumn
+
+@PersistenceContext
+
+@PersistenceUnit
+
+@PostLoad
+
+@PostPersist
+
+@PostRemove
+
+@PostUpdate
+
+@PrePersist
+
+@PreRemove
+
+@PreUpdate
+
+@PrimaryKeyJoinColumn
+
+@UniqueConstraint
+
+Security:
+==========
+SpringSecurity 
+Jwt Token
+oauth2
+Spring WebMvc Annotations
+===========================
+@Controller
+@RequestMapping
+@ResponseBody
+@RequestBody
+@Consumes
+@MediaTypes
+@Produces
+@Service
+@Repository
+
+ Rest Annoations:
+====================
+@RequestMapping()
+@RestController
+@GetMapping()
+@putMapping()
+@deleteMapping()
+@Fatch()
+@PostMapping()
+@Service
+@Repository
+SpringBootAnnotations:
+======================
+@SpringBootApplication
+
+@SpringBootConfiguration
+
+@EnableAutoConfiguration
+
+@ComponentScan
+
+microservices  annotations
+==============================
+@EnableEurekaServer
+
+@EnableEurekaClient
+
+@EnableDiscoveryClient
+
+@EnableFeignClients
+
+@FeignClient(name = "service-name")
+
+@LoadBalanced
+
+@EnableConfigServer
+
+@RefreshScope
+
+@StreamListener
+
+@RateLimiter
+
+@Retry
+
+@CircuitBreaker
+
+@Bulkhead
+
+@TimeLimiter
+
+
+Design Patterns:
+=====================
+Microservices Architecture
+
+API Gateway Pattern
+
+Database per Service Pattern
+
+Circuit Breaker Pattern
+
+Saga Pattern
+
+Event-Driven Pattern
+
+CQRS (Command Query Responsibility Segregation)
+
+Strangler Pattern
+
+Backend for Frontend (BFF) Pattern
+
+Service Discovery Pattern
+
+Bulkhead Pattern
+
+Retry Pattern
+
+Timeouts Pattern
+
+Externalized Configuration Pattern
+
+Consumer-Driven Contract Pattern
+
+Sidecar Pattern
+
+Ambassador Pattern
+
+Chained Microservices Pattern
+
+Asynchronous Messaging Pattern 
+
+synchronization Communications:
+Rest Template
+Feig Client
+Web client
+Asyn Communication
+Kafka ,Message Queue ,GRpc 
+
+
+Git Commands:
+==================
+
+
+
+
+
+
