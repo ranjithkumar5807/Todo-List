@@ -1,0 +1,17 @@
+Chat Etiquettes
+===============
+Opening:
+	Greeting
+	Introduction
+	Purpose
+Probing:
+  Questions:
+	Closed: specific answer
+	Open: Describe	
+Acknowledgment:
+	Empathy : Thank You, Im working on that
+	Canned Responses : Chat Bot Automate To avoid deadair(silence) for customers when they want time 
+				to connect to their Customer facing persons
+Summary:
+	Summary: Key points in imp conversations
+	Confirmation: Asking these works im doing and complete in eod. Telling them that im doing.

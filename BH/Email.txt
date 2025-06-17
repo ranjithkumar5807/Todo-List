@@ -1,0 +1,37 @@
+To - Receipient / Destination Person
+CC -  To whom should know the email (POC for us)
+BCC - Capacity / To hide email addresses 
+Subject Line - short below 7-8 words express what the email is for    Daily Status Report - 27.05.25
+
+Body -
+	Salutations  Dear/Hi 
+	(optional based on designation) {Mr/Ms}
+	Ranjith, Ram and Mani (Upto 3 peoples)
+ 	Team /  Associates/  All 
+	Greetings Optional
+
+	Pleasantries - For Rare persons or first time (ex: Hope you are doing good)
+	Introduction - First Time (Name, Designation, Company Name, Location)
+
+	Presentation Matters: Paragraphs(Multiple short) / Bullet Points / Tabular Columns  
+
+	Bullet Points
+	==============
+
+	Use Parallelism - Start Same Grammatical Form Use similar grammatical elements to create rhythm
+		Start the session
+		Open the presentation
+		Present the topics
+
+	
+	Paragraphs
+	==========
+	
+	Inverted Pyramid Method  -  Most Imp Info --> supporting details -->  General Info
+
+	SIGNATURE:
+	==========
+
+
+
+
